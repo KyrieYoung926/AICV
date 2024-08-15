@@ -1,0 +1,227 @@
+%-------------------------
+% Resume Template in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% Uncomment one of these lines to change the font
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Your Name} \\ \vspace{1pt}
+    \small Tel: Your Phone Number $|$ Email: \href{mailto:youremail@example.com}{\underline{youremail@example.com}} $|$ 
+    Web: \href{https://yourwebsite.com}{\underline{https://yourwebsite.com}} \\
+    Your Address
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University Name}{City, Country}
+      {Degree, Major}{Month Year - Month Year}
+      \resumeItemListStart
+        \resumeItem{Notable achievements or awards}
+      \resumeItemListEnd
+    \resumeSubheading
+      {University Name}{City, Country}
+      {Degree, Major}{Month Year - Month Year}
+      \resumeItemListStart
+        \resumeItem{Key Courses: Course1, Course2, Course3}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+  \resumeSubHeadingListStart
+    \resumeItem{Research Area1, Research Area2, Research Area3}
+  \resumeSubHeadingListEnd
+
+%-----------EXCHANGE PROGRAM-----------
+\section{Exchange Program}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Program Name}{Location}
+      {Topic: Topic Name}{Month Year}
+      \resumeItemListStart
+        \resumeItem{Achievement or project description}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Position1}{Month Year - Month Year}
+      {Company Name}{City, Country}
+      \resumeItemListStart
+        \resumeItem{Description of your role and achievements}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Position2}{Month Year - Month Year}
+      {Company Name}{City, Country}
+      \resumeItemListStart
+        \resumeItem{Description of your role and achievements}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------MAIN PROJECT EXPERIENCE-----------
+\section{Main Project Experience}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Project1}}{Month Year - Month Year}
+      \resumeItemListStart
+        \resumeItem{Brief description of the project and your contributions}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Project2}}{Month Year - Month Year}
+      \resumeItemListStart
+        \resumeItem{Brief description of the project and your contributions}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{Project3}}{Month Year - Month Year}
+      \resumeItemListStart
+        \resumeItem{Brief description of the project and your contributions}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart    
+    \resumeSubheading
+      {Research Project1}{Month Year - Month Year}
+      {Supervisor: Supervisor Name}{City, Country}
+      \resumeItemListStart
+        \resumeItem{Brief description of the research and your contributions}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Research Project2}{Month Year - Month Year}
+      {Supervisor: Supervisor Name}{City, Country}
+      \resumeItemListStart
+        \resumeItem{Brief description of the research and your contributions}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Language1, Language2, Language3} \\
+     \textbf{Developer Tools}{: Tool1, Tool2, Tool3} \\
+     \textbf{Libraries/Frameworks}{: Framework1, Framework2, Framework3} \\
+     \textbf{Platforms}{: Platform1, Platform2}
+    }}
+ \end{itemize}
+
+%-----------EXTRACURRICULAR LIFE-----------
+\section{Extracurricular Life}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Activity1}}{Month Year - Month Year}
+      \resumeItemListStart
+        \resumeItem{Description of your role and achievements}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Hobbies}{: Hobby1, Hobby2, Hobby3} \\
+     \textbf{Blogging/Content Creation}{: Platform name, number of followers, any notable achievements}
+    }}
+ \end{itemize}
+\end{document}
