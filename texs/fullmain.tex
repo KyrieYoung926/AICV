@@ -1,0 +1,261 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Huge \scshape Yang Xun} \\ \vspace{1pt}
+    \small Tel: +86-0745-13974588661 $|$ Email: \href{mailto:xyang162@connect.hkust-gz.edu.cn}{\underline{xyang162@connect.hkust-gz.edu.cn}} $|$ 
+    Web: \href{https://kyrieyoung.gitee.io}{\underline{https://kyrieyoung926.github.io/}} \\
+    HKUST (GZ), No. 1 Du Xue Rd, Nansha District, Guangzhou, Guangdong, China
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Hong Kong University of Science and Technology (Guangzhou)}{Guangzhou, China}
+      {M.Phil student in Robotics and Autonomous Systems, System Hub}{Aug 2024 - Present}
+            \resumeItemListStart
+        \resumeItem{Postgraduate Studentship Awarded}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Harbin Institute of Technology (Shenzhen)}{Shenzhen, China}
+      {B.Eng in Automation, The School of Engineering and Automation}{Sep 2020 - Jul 2024}
+      \resumeItemListStart
+        \resumeItem{Key Courses: Frontiers of Automation, Automatic Control Theory, Automatic Control Practice, Digital Image Processing, System Modeling and Simulation, Signal Analysis and Processing}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+  \resumeSubHeadingListStart
+    \resumeItem{Robotics, Embodied AI, Reinforcement Learning, Deep Learning}
+  \resumeSubHeadingListEnd
+
+%-----------EXCHANGE PROGRAM-----------
+\section{Exchange Program}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {HKUST Innobay Bootcamp}{Hong Kong, China}
+      {Topic: Sports Rehabilitation}{ Jul 2024}
+      \resumeItemListStart
+        \resumeItem{Won the Most Innovative Award (Only one out of 6 groups)}
+        \resumeItem{Designed a product called BioSync which aims at helping professional athletes alleviate or eliminate the decline in their performance caused by jet lag.}
+        \resumeItem{Developed a demo of smart light with ESP32, Wechat Miniprogram, and controllable light source.}
+
+      \resumeItemListEnd
+    \resumeSubheading
+      {Oxford Prospects Program}{Oxford, UK}
+      {Topic:  Science, Technology, Engineering, Mathematics $|$ Grade: A }{Jan 2023 - Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Attended 20 academic lectures on cutting-edge technologies.}
+        \resumeItem{Won the Best Academic Presentation Award with a group work on the topic of gradient descent algorithm in machine learning.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Robot Algorithm Engineer}{Mar 2024 - Jun 2024}
+      {Guangdong Robot Storm Co., Ltd. }{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Developed a AI powered Whole-Body-Massage Robot based on Admittance Control algorithm, and demonstrated on MiraclePlus in Beijing.}
+        \resumeItem{Reduce the overall cost of the equipment to \textbf{1/5 }of the general market price, making it the \textbf{\textit{cheapest}} full-body therapy massage robot in the world.}
+      \resumeItemListEnd
+ \resumeSubheading
+      {Embedded Software Engineer}{Mar 2024 - Jun 2024}
+      {Shenzhen Novoage Energy Technology Co., Ltd. }{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Engineered algorithmic enhancements for real-time battery data display on ARM board. Improved real-time monitoring accuracy.}
+        \resumeItem{Optimized communication among BMS, ARM board, and upper-level PC, eliminating complex port reconfigurations during testing. Achieved a \textbf{50\%} reduction in protocol switching time and an \textbf{50\%} increase in protocol parsing efficiency, enhancing project flexibility.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------MAIN PROJECT EXPERIENCE-----------
+\section{Main Project Experience}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{Smart Car Based on DIP}}{Nov 2022 - Dec 2022}
+      \resumeItemListStart
+        \resumeItem{Employed HSV image segmentation algorithm for ground detection and image recognition , and row-by-row pixel counting for route planning.}
+        \resumeItem{Covered 6 meters with decision-making taking around 0.5 seconds.}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{New Energy Car Relay}}{Jun 2022 - Jul 2022}
+      \resumeItemListStart
+        \resumeItem{Analyzed and designed new energy cars powered by elasticity, gravity and electricity, and triggering mechanisms.}
+        \resumeItem{Achieved stable relay of \textbf{3} cars in \textbf{38} seconds on a \textbf{0.3m} wide, \textbf{12m} long track without intervention}
+      \resumeItemListEnd
+    \resumeProjectHeading
+      {\textbf{PID-Based Line Following Robot}}{Nov 2020 - Dec 2020}
+      \resumeItemListStart
+        \resumeItem{Designed mechanical structure, and controlled using Arduino board and PID algorithm, with a focus on parameter tuning. }
+        \resumeItem{Successfully completed a curved track of about \textbf{6} meters in approximately \textbf{11} seconds, and won the Best Apperience award.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart    
+  \resumeSubheading
+      {Skin Impedance Analysis Based on Skin Dryness (Graduation Project)}{Oct 2023 - May 2024}
+       {Supervisor: \href{https://faculty.hitsz.edu.cn/wangzhiyong}{Asst. Prof. Zhiyong Wang}}{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Built a high-precision skin impedance measurement module based on the AD5941 chip, which enables the collection and analysis of skin impedance signals from different parts of the human body and provides a possibility for real-time monitoring of skin dryness.}
+        \resumeItem{The project includes hardware design, embedded software development, skin impedance data collection experiments, and the design and analysis of machine learning algorithms.}
+      \resumeItemListEnd
+  \resumeSubheading 
+      {A Pantograph-Based Crab-Like Locomotion Mechanism}{Dec 2023 - Jan 2024}
+      {Supervisor: \href{https://faculty.hitsz.edu.cn/zhangyangkun}{Asst. Prof. Yangkun Zhang}}{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Utilized piezoelectric ceramics as the power source, designed the mechanical structure and conducting finite element simulations. }
+        \resumeItem{Employed robotics inverse kinematics knowledge to establish quantitative input-output relationships, manufactured the prototype, and conducted experimental testing. }
+      \resumeItemListEnd
+    \resumeSubheading
+      {Fabrication of Dielectric Elastomers}{Mar 2023 - Apr 2023}
+      {Supervisor: \href{https://faculty.hitsz.edu.cn/zhangyangkun}{Asst. Prof. Yangkun Zhang}}{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Successfully crafted \textbf{10} distinct shapes of silicone rubber dielectric elastomers, resulting in \textbf{2} viable prototypes for further testing and experimentation.}
+        \resumeItem{Conducted \textbf{40} electrical tests on the prototypes, implementing Simulink-based voltage control to achieve elastic deformation }
+      \resumeItemListEnd
+    \resumeSubheading
+      {Image Processing for Micro-Manipulation Platform}{Oct 2022 - Dec 2022}
+      {Supervisor: \href{https://faculty.hitsz.edu.cn/zhangyangkun}{Asst. Prof. Yangkun Zhang}}{Shenzhen, China}
+      \resumeItemListStart
+        \resumeItem{Conducted an in-depth review of \textbf{15} scientific articles and publications on microscope image scanning and micro-manipulation platforms.}
+        \resumeItem{Processed \textbf{1000} cell images using advanced image processing techniques, achieving a remarkable accuracy rate of \textbf{89.7\%}, facilitating quantitative analysis for foundational research in the field. }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: C, Python, HTML, Matlab, ROS, Markdown, LaTeX} \\
+     \textbf{Developer Tools}{: Keil, Altium Designer, WeChat Developer Tools, Ansys, Solidworks, Stable Diffusion, GPU Cloud Servers, Git, Colab, VS Code, Pycharm, Overleaf} \\
+     \textbf{Libraries/Frameworks}{: OpenCV, NumPy, Matplotlib, PyTorch, EasyX} \\
+     \textbf{Platforms}{: Linux, Windows}
+    }}
+ \end{itemize}
+
+%-----------EXTRACURRICULAR LIFE-----------
+\section{Extracurricular Life}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{President of English Association of HITSZ}}{Jul 2021 - Sep 2022}
+      \resumeItemListStart
+        \resumeItem{Led a 400+ member English club, organizing 20+ English corner events and co-founding the League of English Association in University Town with EA in THUSZ and PKUSZ.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Sports}{: basketball, soccer, table tennis, tennis,  volleyball, badminton, running} \\
+     \textbf{Blogger}{ on Bilibili and Little Red Book, with 450+ fans and 650k browsing}
+    }}
+ \end{itemize}
+\end{document}
